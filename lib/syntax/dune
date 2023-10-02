@@ -1,0 +1,3 @@
+(library
+ (name hoareSyntax)
+ (libraries zarith))

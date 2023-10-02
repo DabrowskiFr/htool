@@ -1,0 +1,8 @@
+(library 
+ (name hoareParser)
+ (libraries hoareSyntax zarith menhirLib))
+
+(ocamllex lexer)
+
+(menhir 
+ (modules parser))
